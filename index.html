@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="dark" />
+    <title>Karim Helal — Full‑Stack .NET Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Karim Helal — Full‑Stack .NET developer and CS student. ASP.NET Core, MVC, Web APIs, SQL Server, EF Core, AI."
+    />
+    <meta
+      property="og:title"
+      content="Karim Helal — Full‑Stack .NET Developer"
+    />
+    <meta
+      property="og:description"
+      content="Explore skills, services, .NET projects, and contact information."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.example/" />
+    <meta property="og:image" content="assets/cover.jpg" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="preload" href="assets/cover.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#cover" class="brand" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">KH</span>
+          <span class="brand-text">Karim Helal</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">
+          <span class="sr-only">Toggle navigation</span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 6h16M4 12h16M4 18h16"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+
+        <nav id="nav" class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="#cover">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact" class="btn btn-brand">Hire Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- 1. Cover -->
+      <section id="cover" class="section cover">
+        <div class="cover-media" role="img" aria-label="Cover image">
+          <img src="assets/cover.jpg" alt="" />
+          <div class="cover-overlay"></div>
+        </div>
+
+        <div class="container cover-content">
+          <!-- Left: copy -->
+          <div class="hero-copy">
+            <p class="eyebrow">Available for freelance work</p>
+            <h1>
+              Hi, I'm <span class="accent">Karim Helal</span><br />
+              <span class="muted">Full‑Stack .NET Developer</span>
+            </h1>
+            <p class="lead">
+              CS student building scalable, data‑driven applications with
+              ASP.NET Core, Web APIs, and SQL Server — using software to create
+              meaningful impact.
+            </p>
+            <div class="actions">
+              <a href="#projects" class="btn btn-brand">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+            </div>
+          </div>
+
+          <!-- Right: clean tech icon grid (HTML + crisp inline SVG) -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="tech-grid">
+              <!-- Card 1: ASP.NET Core -->
+              <div class="tech-card">
+                <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <!-- code brackets -->
+                  <path
+                    d="M9 7L6 12l3 5M15 7l3 5-3 5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div class="tech-text">
+                  <div class="tech-title">ASP.NET Core</div>
+                  <div class="tech-sub muted">.NET • C#</div>
+                </div>
+              </div>
+
+              <!-- Card 2: Web API -->
+              <div class="tech-card">
+                <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <!-- hexagon -->
+                  <path
+                    d="M12 3l7 4v10l-7 4-7-4V7z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <text
+                    x="12"
+                    y="14"
+                    text-anchor="middle"
+                    font-size="7"
+                    font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+                    fill="currentColor"
+                  >
+                    API
+                  </text>
+                </svg>
+                <div class="tech-text">
+                  <div class="tech-title">Web API</div>
+                  <div class="tech-sub muted">REST • Swagger</div>
+                </div>
+              </div>
+
+              <!-- Card 3: SQL Server -->
+              <div class="tech-card">
+                <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <!-- database cylinder -->
+                  <ellipse
+                    cx="12"
+                    cy="6.5"
+                    rx="7"
+                    ry="3"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M5 6.5v8c0 1.66 3.13 3 7 3s7-1.34 7-3v-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <ellipse
+                    cx="12"
+                    cy="14.5"
+                    rx="7"
+                    ry="3"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <div class="tech-text">
+                  <div class="tech-title">SQL Server</div>
+                  <div class="tech-sub muted">EF Core • LINQ</div>
+                </div>
+              </div>
+
+              <!-- Card 4: AI -->
+              <div class="tech-card">
+                <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <!-- simple neural network -->
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  >
+                    <circle cx="6.5" cy="6.5" r="2.5" />
+                    <circle cx="17.5" cy="6.5" r="2.5" />
+                    <circle cx="12" cy="17.5" r="2.5" />
+                    <path d="M9 6.5h5M8 8l3 7M16 8l-3 7" />
+                  </g>
+                </svg>
+                <div class="tech-text">
+                  <div class="tech-title">AI</div>
+                  <div class="tech-sub muted">Python • ML basics</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About -->
+      <section id="about" class="section">
+        <div class="container grid-2">
+          <div class="card profile">
+            <img
+              src="photo_2025-05-12_02-53-46.jpg"
+              alt="Portrait of Karim Helal"
+              class="profile-img"
+            />
+          </div>
+          <div>
+            <h2>About</h2>
+            <p>
+              I'm Karim, a Computer Science student at Damietta University and
+              an aspiring software developer with hands‑on experience in
+              building full‑stack applications using .NET technologies. My
+              academic and practical projects span backend development, AI
+              integration, and data analysis — always aiming to turn ideas into
+              functional, efficient solutions.
+            </p>
+            <p>
+              I believe technology is one of the most powerful tools to shape
+              the future. I'm passionate about continuous learning,
+              problem‑solving, and collaborating to deliver real‑world impact.
+            </p>
+            <ul class="bullets">
+              <li>Strong with ASP.NET Core, MVC, and Web APIs</li>
+              <li>SQL Server, Entity Framework Core, LINQ</li>
+              <li>Git, Agile methodologies, and team collaboration</li>
+              <li>Data analysis and ML basics with Python</li>
+            </ul>
+            <div class="actions">
+              <a href="assets/Karim-Helal-CV.pdf" class="btn btn-outline"
+                >Download CV</a
+              >
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Education -->
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>
+                  Bachelor’s in Computer and Artificial Intelligence — Damietta
+                  University
+                </h3>
+                <p class="muted">
+                  Computer Science • 2022 – 2026 • New Damietta, Egypt
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Certification — Foundational C# with Microsoft</h3>
+                <p class="muted">Microsoft • Completed</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 4. Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">C#</span>
+            <span class="chip">ASP.NET Core</span>
+            <span class="chip">ASP.NET MVC</span>
+            <span class="chip">Web API</span>
+            <span class="chip">Entity Framework Core</span>
+            <span class="chip">SQL Server</span>
+            <span class="chip">LINQ</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Git</span>
+            <span class="chip">Python (ML basics)</span>
+            <span class="chip">Agile</span>
+          </div>
+
+          <div class="skill-bars">
+            <div class="skill">
+              <div class="skill-top">
+                <span>Backend Engineering (.NET)</span>
+                <span class="muted">Advanced</span>
+              </div>
+              <div class="progress"><span style="width: 88%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top">
+                <span>Database & ORM (SQL Server, EF Core)</span>
+                <span class="muted">Advanced</span>
+              </div>
+              <div class="progress"><span style="width: 82%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top">
+                <span>Frontend (HTML, CSS, JS)</span>
+                <span class="muted">Intermediate</span>
+              </div>
+              <div class="progress"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top">
+                <span>DevOps & Tooling (Git, Docker)</span>
+                <span class="muted">Intermediate</span>
+              </div>
+              <div class="progress"><span style="width: 65%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Work Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2>Work Experience</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="card-top">
+                <h3>
+                  Full‑Stack .NET Web Developer — Digital Egypt Pioneers
+                  Initiative (DEPI)
+                </h3>
+                <span class="muted">Jun 2025 – Present • Egypt</span>
+              </div>
+              <p>
+                Built a solid foundation in scalable, data‑driven web
+                applications using modern Microsoft technologies within the
+                Full‑Stack .NET program.
+              </p>
+              <ul class="bullets">
+                <li>
+                  Backend development with C#, ASP.NET Core MVC, and .NET Core
+                  Web API
+                </li>
+                <li>Frontend development with HTML5, CSS3, and JavaScript</li>
+                <li>SQL Server programming and database management</li>
+                <li>Unit testing and functional documentation</li>
+                <li>
+                  Version control with Git and containerization using Docker
+                </li>
+                <li>
+                  Delivered a capstone full‑stack web app demonstrating
+                  end‑to‑end development
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="chip">C#</span>
+                <span class="chip">ASP.NET Core</span>
+                <span class="chip">Web API</span>
+                <span class="chip">SQL Server</span>
+                <span class="chip">Docker</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <h3>
+                  Web Development Using .NET — Information Technology Institute
+                  (ITI)
+                </h3>
+                <span class="muted"
+                  >Jul 2025 – Aug 2025 • Summer Internship</span
+                >
+              </div>
+              <p>
+                Software Development Track covering core .NET and database
+                topics with hands‑on projects.
+              </p>
+              <ul class="bullets">
+                <li>
+                  SQL Server Fundamentals (24h): schema design, queries,
+                  normalization, indexing, stored procedures
+                </li>
+                <li>
+                  C# Programming (42h): OOP, data structures, modern C#
+                  practices
+                </li>
+                <li>
+                  Entity Framework (18h): EF Core, Code‑First & Database‑First
+                  approaches
+                </li>
+                <li>
+                  ASP.NET MVC (36h): routing, views, validation; dynamic
+                  full‑stack apps
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="chip">C#</span>
+                <span class="chip">EF Core</span>
+                <span class="chip">ASP.NET MVC</span>
+                <span class="chip">SQL Server</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Offered Services -->
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Offered Services</h2>
+          <div class="cards">
+            <article class="card service">
+              <div class="icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 6h16v12H4z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path d="M4 10h16" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </div>
+              <h3>.NET Web App Development</h3>
+              <p class="muted">ASP.NET Core MVC, Razor Pages</p>
+              <ul class="bullets">
+                <li>Responsive, accessible UI with HTML, CSS, JS</li>
+                <li>Authentication, authorization, validation</li>
+                <li>Performance and SEO best practices</li>
+              </ul>
+              <div class="tags">
+                <span class="chip">.net developer</span>
+                <span class="chip">asp.net core</span>
+                <span class="chip">mvc</span>
+              </div>
+            </article>
+
+            <article class="card service">
+              <div class="icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 4h16v16H4z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M4 9h16M9 4v16"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3>API Design & Integration</h3>
+              <p class="muted">ASP.NET Core Web API</p>
+              <ul class="bullets">
+                <li>RESTful endpoints, Swagger/OpenAPI docs</li>
+                <li>JWT auth, rate‑limiting, error handling</li>
+                <li>Caching and pagination</li>
+              </ul>
+              <div class="tags">
+                <span class="chip">web api</span>
+                <span class="chip">rest api</span>
+                <span class="chip">c#</span>
+              </div>
+            </article>
+
+            <article class="card service">
+              <div class="icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3v18M3 12h18"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3>Data & Persistence</h3>
+              <p class="muted">SQL Server, EF Core</p>
+              <ul class="bullets">
+                <li>Schema design, migrations, performance tuning</li>
+                <li>Code‑First & Database‑First workflows</li>
+                <li>Reporting and data analysis basics</li>
+              </ul>
+              <div class="tags">
+                <span class="chip">sql server</span>
+                <span class="chip">entity framework core</span>
+                <span class="chip">database design</span>
+              </div>
+            </article>
+
+            <article class="card service">
+              <div class="icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 5h14v6H5zM5 13h14v6H5z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3>Dev Tooling & Delivery</h3>
+              <p class="muted">Git, Docker</p>
+              <ul class="bullets">
+                <li>Version control workflows and code reviews</li>
+                <li>Containerization for local dev and deployment</li>
+                <li>Basic CI/CD setup</li>
+              </ul>
+              <div class="tags">
+                <span class="chip">docker</span>
+                <span class="chip">git</span>
+                <span class="chip">ci/cd</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Projects -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="cards project-grid">
+            <article class="card project">
+              <img
+                src="std.png"
+                alt="Screenshot of Student Services Portal project"
+              />
+              <div class="project-body">
+                <h3>Student Services Portal (.NET MVC)</h3>
+                <p>
+                  A full‑stack ASP.NET Core MVC app for student enrollment,
+                  grades, and announcements with role‑based access.
+                </p>
+                <div class="tags">
+                  <span class="chip">ASP.NET Core MVC</span>
+                  <span class="chip">EF Core</span>
+                  <span class="chip">SQL Server</span>
+                </div>
+                <details>
+                  <summary>Read case study</summary>
+                  <ul class="bullets">
+                    <li>Challenge: Digitize manual academic workflows</li>
+                    <li>
+                      Approach: MVC architecture, Identity auth, EF Core
+                      migrations
+                    </li>
+                    <li>
+                      Impact: Reduced admin processing time; improved data
+                      consistency
+                    </li>
+                  </ul>
+                  <div class="links">
+                    <a href="#" class="btn btn-ghost">Live</a>
+                    <a href="#" class="btn btn-ghost">Code</a>
+                  </div>
+                </details>
+              </div>
+            </article>
+
+            <article class="card project">
+              <img src="eco.png" alt="Screenshot of E‑commerce API project" />
+              <div class="project-body">
+                <h3>E‑commerce Web API</h3>
+                <p>
+                  RESTful API with product, cart, and order endpoints; JWT
+                  authentication and Swagger docs. Dockerized for development.
+                </p>
+                <div class="tags">
+                  <span class="chip">ASP.NET Core Web API</span>
+                  <span class="chip">JWT</span>
+                  <span class="chip">Docker</span>
+                </div>
+                <details>
+                  <summary>Read case study</summary>
+                  <ul class="bullets">
+                    <li>
+                      Challenge: Secure, scalable API for store operations
+                    </li>
+                    <li>
+                      Approach: Clean controllers, services, repository pattern
+                    </li>
+                    <li>
+                      Impact: Stable API with clear documentation and tests
+                    </li>
+                  </ul>
+                  <div class="links">
+                    <a href="#" class="btn btn-ghost">Live</a>
+                    <a href="#" class="btn btn-ghost">Code</a>
+                  </div>
+                </details>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Achievements -->
+      <section id="achievements" class="section">
+        <div class="container">
+          <h2>Achievements</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Foundational C# with Microsoft</h3>
+              <p class="muted">Microsoft • Certification</p>
+              <p>
+                Completed fundamental C# concepts and applied them in .NET
+                projects.
+              </p>
+            </article>
+            <article class="card">
+              <h3>DEPI Full‑Stack .NET Cohort</h3>
+              <p class="muted">Digital Egypt Pioneers • 2025</p>
+              <p>
+                Selected participant; delivered a capstone full‑stack
+                application.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. Testimonials -->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="cards scroll-x">
+            <figure class="card testimonial">
+              <blockquote>
+                “Karim quickly grasps requirements and delivers clean,
+                well‑structured .NET solutions.”
+              </blockquote>
+              <figcaption>
+                <img src="user1.jpg" alt="Avatar" />
+                <div>
+                  <strong>Client/Instructor</strong>
+                  <span class="muted">Feedback</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="card testimonial">
+              <blockquote>
+                “Great communication and ownership — from database design to API
+                integration.”
+              </blockquote>
+              <figcaption>
+                <img src="user2.jpg" alt="Avatar" />
+                <div>
+                  <strong>Colleague</strong>
+                  <span class="muted">Collaboration</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. Call to Action / Contact -->
+      <section id="contact" class="section">
+        <div class="container grid-2">
+          <div>
+            <h2>Let's work together</h2>
+            <p class="lead">
+              Tell me about your project and goals. I’ll get back to you within
+              24–48 hours.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="label">Email</span>
+                <a href="mailto:karimhelalkh110@gmail.com"
+                  >karimhelalkh110@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="label">Phone</span>
+                <a href="tel:+201100548535">+20 110 054 8535</a>
+              </li>
+              <li>
+                <span class="label">Location</span>
+                <span>New Damietta, Egypt (Remote‑friendly)</span>
+              </li>
+              <li>
+                <span class="label">Social</span>
+                <span class="socials">
+                  <a href="https://github.com/karimhelal" rel="me">GitHub</a>
+                  <a href="https://www.linkedin.com/in/karimhelalkh" rel="me"
+                    >LinkedIn</a
+                  >
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <form
+            id="contact-form"
+            class="card form"
+            action="#"
+            method="post"
+            novalidate
+          >
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="message">Project details</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="What are you building?"
+                required
+              ></textarea>
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="actions">
+              <button type="submit" class="btn btn-brand">Send Message</button>
+              <span class="muted small"
+                >or email me at karimhelalkh110@gmail.com</span
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">
+          © <span id="year"></span> Karim Helal. All rights reserved.
+        </p>
+        <nav aria-label="Footer">
+          <a href="#cover">Top</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karim Helal",
+        "jobTitle": "Full‑Stack .NET Developer",
+        "url": "https://your-domain.example/",
+        "image": "https://your-domain.example/assets/profile.jpg",
+        "email": "mailto:karimhelalkh110@gmail.com",
+        "telephone": "+201100548535",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New Damietta",
+          "addressCountry": "EG"
+        },
+        "sameAs": [
+          "https://github.com/karimhelal",
+          "https://www.linkedin.com/in/karimhelalkh"
+        ]
+      }
+    </script>
+  </body>
+</html>
