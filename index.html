@@ -25,6 +25,7 @@
     <meta property="og:image" content="assets/cover.jpg" />
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="preload" href="assets/cover.jpg" as="image" />
+    <!-- FIX: use your actual CSS/JS file names -->
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
@@ -77,7 +78,7 @@
       <!-- 1. Cover -->
       <section id="cover" class="section cover">
         <div class="cover-media" role="img" aria-label="Cover image">
-          <img src="assets/cover.jpg" alt="" />
+          <img src="/cover.jpg" alt="" />
           <div class="cover-overlay"></div>
         </div>
 
@@ -106,7 +107,6 @@
               <!-- Card 1: ASP.NET Core -->
               <div class="tech-card">
                 <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
-                  <!-- code brackets -->
                   <path
                     d="M9 7L6 12l3 5M15 7l3 5-3 5"
                     fill="none"
@@ -125,7 +125,6 @@
               <!-- Card 2: Web API -->
               <div class="tech-card">
                 <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
-                  <!-- hexagon -->
                   <path
                     d="M12 3l7 4v10l-7 4-7-4V7z"
                     fill="none"
@@ -153,7 +152,6 @@
               <!-- Card 3: SQL Server -->
               <div class="tech-card">
                 <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
-                  <!-- database cylinder -->
                   <ellipse
                     cx="12"
                     cy="6.5"
@@ -188,7 +186,6 @@
               <!-- Card 4: AI -->
               <div class="tech-card">
                 <svg class="tech-icon" viewBox="0 0 24 24" aria-hidden="true">
-                  <!-- simple neural network -->
                   <g
                     fill="none"
                     stroke="currentColor"
@@ -257,23 +254,41 @@
         <div class="container">
           <h2>Education</h2>
           <ol class="timeline">
+            <!-- Damietta University with logo -->
             <li class="timeline-item">
               <div class="timeline-dot" aria-hidden="true"></div>
               <div class="timeline-content">
-                <h3>
-                  Bachelor’s in Computer and Artificial Intelligence — Damietta
-                  University
-                </h3>
-                <p class="muted">
-                  Computer Science • 2022 – 2026 • New Damietta, Egypt
-                </p>
+                <div class="media">
+                  <div class="logo logo--sm">
+                    <img src="du.jpg" alt="Damietta University logo" />
+                  </div>
+                  <div>
+                    <h3>
+                      Damietta University — Bachelor’s in Computer and
+                      Artificial Intelligence
+                    </h3>
+                    <p class="muted">
+                      Computer Science • 2022 – 2026 • New Damietta, Egypt
+                    </p>
+                  </div>
+                </div>
               </div>
             </li>
+
+            <!-- freeCodeCamp entry (logo + optional text) -->
             <li class="timeline-item">
               <div class="timeline-dot" aria-hidden="true"></div>
               <div class="timeline-content">
-                <h3>Certification — Foundational C# with Microsoft</h3>
-                <p class="muted">Microsoft • Completed</p>
+                <div class="media">
+                  <div class="logo logo--sm">
+                    <img src="freecodecamp.jpg" alt="freeCodeCamp logo" />
+                  </div>
+                  <div>
+                    <h3>Certification — Foundational C# with Microsoft</h3>
+                    <p class="muted">Microsoft & freeCodeCamp • Completed</p>
+                    <p></p>
+                  </div>
+                </div>
               </div>
             </li>
           </ol>
@@ -339,13 +354,19 @@
         <div class="container">
           <h2>Work Experience</h2>
           <div class="cards">
+            <!-- DEPI with logo (LinkedIn-style header) -->
             <article class="card">
-              <div class="card-top">
-                <h3>
-                  Full‑Stack .NET Web Developer — Digital Egypt Pioneers
-                  Initiative (DEPI)
-                </h3>
-                <span class="muted">Jun 2025 – Present • Egypt</span>
+              <div class="card-top media">
+                <div class="logo">
+                  <img src="depi.jpg" alt="DEPI logo" />
+                </div>
+                <div>
+                  <h3>
+                    Full‑Stack .NET Web Developer — Digital Egypt Pioneers
+                    Initiative (DEPI)
+                  </h3>
+                  <span class="muted">Jun 2025 – Present • Egypt</span>
+                </div>
               </div>
               <p>
                 Built a solid foundation in scalable, data‑driven web
@@ -377,15 +398,21 @@
               </div>
             </article>
 
+            <!-- ITI with logo -->
             <article class="card">
-              <div class="card-top">
-                <h3>
-                  Web Development Using .NET — Information Technology Institute
-                  (ITI)
-                </h3>
-                <span class="muted"
-                  >Jul 2025 – Aug 2025 • Summer Internship</span
-                >
+              <div class="card-top media">
+                <div class="logo">
+                  <img src="iti.jpg" alt="ITI logo" />
+                </div>
+                <div>
+                  <h3>
+                    Web Development Using .NET — Information Technology
+                    Institute (ITI)
+                  </h3>
+                  <span class="muted"
+                    >Jul 2025 – Aug 2025 • Summer Internship</span
+                  >
+                </div>
               </div>
               <p>
                 Software Development Track covering core .NET and database
@@ -609,28 +636,28 @@
         </div>
       </section>
 
-      <!-- 8. Achievements -->
-      <section id="achievements" class="section">
+      <!-- 8. Certifications -->
+      <section id="education" class="section">
         <div class="container">
-          <h2>Achievements</h2>
-          <div class="cards">
-            <article class="card">
-              <h3>Foundational C# with Microsoft</h3>
-              <p class="muted">Microsoft • Certification</p>
-              <p>
-                Completed fundamental C# concepts and applied them in .NET
-                projects.
-              </p>
-            </article>
-            <article class="card">
-              <h3>DEPI Full‑Stack .NET Cohort</h3>
-              <p class="muted">Digital Egypt Pioneers • 2025</p>
-              <p>
-                Selected participant; delivered a capstone full‑stack
-                application.
-              </p>
-            </article>
-          </div>
+          <h2>Certifications</h2>
+          <ol class="timeline">
+            <!-- freeCodeCamp entry (logo + optional text) -->
+            <li class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="media">
+                  <div class="logo logo--sm">
+                    <img src="freecodecamp.jpg" alt="freeCodeCamp logo" />
+                  </div>
+                  <div>
+                    <h3>Certification — Foundational C# with Microsoft</h3>
+                    <p class="muted">Microsoft & freeCodeCamp • Completed</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
         </div>
       </section>
 
