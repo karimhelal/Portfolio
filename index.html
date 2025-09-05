@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  
+  <!-- SEO Meta Tags -->
+  <title>Karim Helal | Full-Stack .NET Developer & Data Scientist</title>
+  <meta name="description" content="Karim Helal - Full-Stack .NET Developer specializing in ASP.NET Core, Web APIs, and Data Science. Building scalable solutions with modern technologies.">
+  <meta name="keywords" content="Full-Stack Developer, .NET Developer, ASP.NET Core, C#, Web API, SQL Server, Data Science, Python, Karim Helal">
+  <meta name="author" content="Karim Helal">
+  <link rel="canonical" href="https://karimhelal.github.io/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://karimhelal.github.io/">
+  <meta property="og:title" content="Karim Helal | Full-Stack .NET Developer & Data Scientist">
+  <meta property="og:description" content="Building scalable solutions with ASP.NET Core, Web APIs, and Data Science">
+  <meta property="og:image" content="https://karimhelal.github.io/assets/og-image.jpg">
+  <meta property="og:site_name" content="Karim Helal Portfolio">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://karimhelal.github.io/">
+  <meta property="twitter:title" content="Karim Helal | Full-Stack .NET Developer & Data Scientist">
+  <meta property="twitter:description" content="Building scalable solutions with ASP.NET Core, Web APIs, and Data Science">
+  <meta property="twitter:image" content="https://karimhelal.github.io/assets/og-image.jpg">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.jpg">
+  <link rel="icon" type="image/png" href="images/favicon.jpg">
+  <link rel="apple-touch-icon" href="images/favicon.jpg">
+
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.github.com">
+  
+  <!-- Modern font loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="images/cover.jpg" as="image" type="image/jpeg">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="preload" href="script.js" as="script">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Theme color for mobile browsers -->
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-TileColor" content="#0a0a0a">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Karim Helal",
+    "jobTitle": "Full-Stack .NET Developer",
+    "description": "Full-Stack .NET Developer specializing in ASP.NET Core, Web APIs, and Data Science",
+    "url": "https://karimhelal.github.io/",
+    "image": "https://karimhelal.github.io/assets/profile.jpg",
+    "email": "karimhelalkh110@gmail.com",
+    "telephone": "+201100548535",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Damietta",
+      "addressCountry": "Egypt"
+    },
+    "sameAs": [
+      "https://github.com/karimhelal",
+      "https://www.linkedin.com/in/karimhelalkh"
+    ],
+    "knowsAbout": [
+      "ASP.NET Core",
+      "C#",
+      "Web API",
+      "SQL Server",
+      "Entity Framework",
+      "Data Science",
+      "Python",
+      "Machine Learning"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Damietta University"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Digital Egypt Pioneers Initiative"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip to content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Modern loading screen -->
+  <div id="loading-screen" class="loading-screen" aria-hidden="true">
+    <div class="loading-container">
+      <div class="loading-logo">
+        <div class="logo-text">KH</div>
+        <div class="loading-ring"></div>
+      </div>
+      <div class="loading-text">
+        <span class="loading-label">Initializing</span>
+        <div class="loading-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <!-- Logo -->
+      <a href="#hero" class="nav__logo" aria-label="Karim Helal - Home">
+        <div class="logo">
+          <span class="logo__text">KH</span>
+          <div class="logo__glow"></div>
+        </div>
+        <span class="nav__logo-text">Karim Helal</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#hero" class="nav__link" data-section="hero">
+              <span class="nav__text">Home</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link" data-section="about">
+              <span class="nav__text">About</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link" data-section="experience">
+              <span class="nav__text">Experience</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link" data-section="skills">
+              <span class="nav__text">Skills</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link" data-section="projects">
+              <span class="nav__text">Projects</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link nav__link--cta" data-section="contact">
+              <span class="nav__text">Contact</span>
+              <div class="nav__link-bg"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__grid"></div>
+        <div class="hero__particles" aria-hidden="true">
+          <div class="particle" style="--delay: 0s; --duration: 8s;"></div>
+          <div class="particle" style="--delay: 2s; --duration: 12s;"></div>
+          <div class="particle" style="--delay: 4s; --duration: 10s;"></div>
+          <div class="particle" style="--delay: 6s; --duration: 14s;"></div>
+          <div class="particle" style="--delay: 8s; --duration: 9s;"></div>
+        </div>
+      </div>
+
+      <div class="container hero__container">
+        <div class="hero__content">
+          <!-- Status indicator -->
+          <div class="status">
+            <div class="status__indicator"></div>
+            <span class="status__text">Available for freelance</span>
+          </div>
+
+          <!-- Main heading -->
+          <h1 class="hero__title">
+            <span class="hero__greeting">Hi, I'm</span>
+            <span class="hero__name">Karim Helal</span>
+            <span class="hero__role">
+              <span class="typewriter" data-words="Full-Stack .NET Developer,Problem Solver,CS Student"></span>
+            </span>
+          </h1>
+
+          <!-- Description -->
+          <p class="hero__description">
+            Hi, my name is <strong>Karim Helal</strong>, I’m a <strong>Computer Science</strong> student at Damietta University. I’m passionate about backend development with <strong>.NET</strong> and I enjoy creating practical systems using <strong>C#</strong>. I’m also eager to learn more about machine learning and data analysis, and I’m excited to integrate these fields into real-world projects in the future.
+          </p>
+
+          <!-- Call to action buttons -->
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">
+              <span>View My Work</span>
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn--secondary">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick stats -->
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__number" data-count="6">0</div>
+              <div class="stat__label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number" data-count="4">0</div>
+              <div class="stat__label">Years Learning</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number" data-count="100">0</div>
+              <div class="stat__label">% Passionate</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero visual -->
+        <div class="hero__visual">
+          <div class="code-window">
+            <div class="code-window__header">
+              <div class="code-window__controls">
+                <span class="control control--close"></span>
+                <span class="control control--minimize"></span>
+                <span class="control control--maximize"></span>
+              </div>
+              <div class="code-window__title">Program.cs</div>
+            </div>
+            <div class="code-window__content">
+              <pre class="code"><code id="animated-code"></code></pre>
+            </div>
+          </div>
+          
+          <!-- Floating tech icons -->
+          <div class="tech-float">
+            <div class="tech-item" style="--delay: 0s;">
+              <img src="images/csharp.png" alt="C#" loading="lazy">
+            </div>
+            <div class="tech-item" style="--delay: 1s;">
+              <img src="images/dotnet.svg" alt=".NET" loading="lazy">
+            </div>
+            <div class="tech-item" style="--delay: 2s;">
+              <img src="images/python.svg" alt="Python" loading="lazy">
+            </div>
+            <div class="tech-item" style="--delay: 3s;">
+              <img src="images/sql.svg" alt="SQL Server" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span class="scroll-text">Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">01</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know who I am and what I do</p>
+        </div>
+
+        <div class="about__content">
+          <div class="about__text">
+            <div class="about__intro">
+              <p class="text-large">
+                I'm a passionate Computer Science student at Damietta University with a strong focus on 
+                <strong>full-stack development</strong> and <strong>data science</strong>. My journey combines 
+                academic excellence with hands-on experience in building real-world applications.
+              </p>
+            </div>
+
+            <div class="about__details">
+              <p>
+                Through intensive programs at <strong>DEPI</strong> and <strong>ITI</strong>, I've mastered 
+                modern .NET technologies and data analysis techniques. I believe in writing clean, efficient 
+                code that solves real problems and creates meaningful impact.
+              </p>
+              
+              <p>
+                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                projects, or diving deep into data to uncover hidden insights.
+              </p>
+            </div>
+
+            <!-- Key highlights -->
+            <div class="highlights">
+              <div class="highlight">
+                <div class="highlight__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                  </svg>
+                </div>
+                <div class="highlight__content">
+                  <h4>Fast Learner</h4>
+                  <p>Quickly adapts to new technologies and frameworks</p>
+                </div>
+              </div>
+              
+              <div class="highlight">
+                <div class="highlight__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div class="highlight__content">
+                  <h4>Quality Focused</h4>
+                  <p>Committed to writing clean, maintainable code</p>
+                </div>
+              </div>
+              
+              <div class="highlight">
+                <div class="highlight__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+                <div class="highlight__content">
+                  <h4>Team Player</h4>
+                  <p>Collaborates effectively in agile environments</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="about__cta">
+              <a href="cv/Karim-Yousry-Helal.pdf" class="btn btn--outline" download>
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7,10 12,15 17,10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Profile image -->
+          <div class="about__image">
+            <div class="image-container">
+              <img src="images/photo_2025-05-12_02-53-46.jpg" alt="Karim Helal - Portrait" class="profile-img" loading="lazy">
+              <div class="image-overlay"></div>
+              <div class="image-border"></div>
+            </div>
+            
+            <!-- Floating elements -->
+            <div class="floating-elements" aria-hidden="true">
+              <div class="floating-element" style="--delay: 0s;">💻</div>
+              <div class="floating-element" style="--delay: 2s;">📊</div>
+              <div class="floating-element" style="--delay: 4s;">🚀</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">02</span>
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-subtitle">My journey in technology and education</p>
+        </div>
+
+        <div class="timeline">
+          <!-- DEPI Experience -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2025 - Present</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="company-logo">
+                  <img src="images/depi.jpg" alt="DEPI Logo" loading="lazy">
+                </div>
+                <div class="timeline-info">
+                  <h3 class="timeline-title">Full-Stack .NET Developer</h3>
+                  <p class="timeline-company">Digital Egypt Pioneers Initiative (DEPI)</p>
+                  <p class="timeline-location">Egypt • Remote</p>
+                </div>
+              </div>
+              <p class="timeline-description">
+                Intensive full-stack development program focusing on modern Microsoft technologies 
+                and best practices for building scalable web applications.
+              </p>
+              <ul class="timeline-achievements">
+                <li>Mastered ASP.NET Core MVC and Web API development</li>
+                <li>Implemented Entity Framework Core with Code-First approach</li>
+                <li>Built responsive frontends with HTML5, CSS3, and JavaScript</li>
+                <li>Delivered capstone project demonstrating end-to-end development</li>
+                <li>Practiced Agile methodologies and version control with Git</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">ASP.NET Core</span>
+                <span class="tag">C#</span>
+                <span class="tag">Web API</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">Docker</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITI Experience -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">Summer 2025</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="company-logo">
+                  <img src="images/iti.jpg" alt="ITI Logo" loading="lazy">
+                </div>
+                <div class="timeline-info">
+                  <h3 class="timeline-title">Web Development Intern</h3>
+                  <p class="timeline-company">Information Technology Institute (ITI)</p>
+                  <p class="timeline-location">Egypt • On-site</p>
+                </div>
+              </div>
+              <p class="timeline-description">
+                120-hour intensive summer internship covering .NET ecosystem and database fundamentals 
+                with hands-on project development.
+              </p>
+              <ul class="timeline-achievements">
+                <li>Completed 42 hours of advanced C# programming (OOP, LINQ, Modern C#)</li>
+                <li>Mastered SQL Server fundamentals and database design principles</li>
+                <li>Built dynamic web applications using ASP.NET MVC</li>
+                <li>Implemented Entity Framework for data access layer</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">C#</span>
+                <span class="tag">ASP.NET MVC</span>
+                <span class="tag">Entity Framework</span>
+                <span class="tag">SQL Server</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- University Education -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2022 - 2026</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="company-logo">
+                  <img src="images/du.jpg" alt="Damietta University Logo" loading="lazy">
+                </div>
+                <div class="timeline-info">
+                  <h3 class="timeline-title">Bachelor's in Computer Science</h3>
+                  <p class="timeline-company">Damietta University</p>
+                  <p class="timeline-location">New Damietta, Egypt</p>
+                </div>
+              </div>
+              <p class="timeline-description">
+                Pursuing Bachelor's degree in Computer and Artificial Intelligence with focus on 
+                software engineering, data structures, and machine learning fundamentals.
+              </p>
+              <ul class="timeline-achievements">
+                <li>Strong foundation in algorithms and data structures</li>
+                <li>Object-oriented programming and software design patterns</li>
+                <li>Database systems and management</li>
+                <li>Introduction to artificial intelligence and machine learning</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Computer Science</span>
+                <span class="tag">Data Structures</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">AI Fundamentals</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certification -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2025</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="company-logo">
+                  <img src="images/freecodecamp.jpg" alt="freeCodeCamp Logo" loading="lazy">
+                </div>
+                <div class="timeline-info">
+                  <h3 class="timeline-title">Foundational C# Certification</h3>
+                  <p class="timeline-company">Microsoft & freeCodeCamp</p>
+                  <p class="timeline-location">Online</p>
+                </div>
+              </div>
+              <p class="timeline-description">
+                Comprehensive certification program covering C# fundamentals, object-oriented 
+                programming, and .NET framework basics.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">C# Fundamentals</span>
+                <span class="tag">OOP</span>
+                <span class="tag">.NET Framework</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">03</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">The tools and technologies I work with</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Backend Development -->
+          <div class="skill-category">
+            <div class="skill-category__header">
+              <div class="skill-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <h3>Backend Development</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="images/csharp.png" alt="C#" loading="lazy">
+                <span>C#</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/dotnet.svg" alt="ASP.NET Core" loading="lazy">
+                <span>ASP.NET Core</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/dotnet.svg" alt=".NET MVC" loading="lazy">
+                <span>.NET MVC</span>
+                <div class="skill-level" data-level="88"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/api.svg" alt="Web API" loading="lazy">
+                <span>Web API</span>
+                <div class="skill-level" data-level="88"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/ef.png" alt="Entity Framework" loading="lazy">
+                <span>Entity Framework</span>
+                <div class="skill-level" data-level="82"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend Development -->
+          <div class="skill-category">
+            <div class="skill-category__header">
+              <div class="skill-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16,18 22,12 16,6"/>
+                  <polyline points="8,6 2,12 8,18"/>
+                </svg>
+              </div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="images/html.svg" alt="HTML5" loading="lazy">
+                <span>HTML5</span>
+                <div class="skill-level" data-level="92"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/css.svg" alt="CSS3" loading="lazy">
+                <span>CSS3</span>
+                <div class="skill-level" data-level="88"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/js.svg" alt="JavaScript" loading="lazy">
+                <span>JavaScript</span>
+                <div class="skill-level" data-level="75"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/bootstrap.svg" alt="Bootstrap" loading="lazy">
+                <span>Bootstrap</span>
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database & Data -->
+          <div class="skill-category">
+            <div class="skill-category__header">
+              <div class="skill-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                </svg>
+              </div>
+              <h3>Database</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="images/sql.svg" alt="SQL Server" loading="lazy">
+                <span>SQL Server</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & DevOps -->
+          <div class="skill-category">
+            <div class="skill-category__header">
+              <div class="skill-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+              <h3>Tools & DevOps</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img src="images/git.svg" alt="Git" loading="lazy">
+                <span>Git</span>
+                <div class="skill-level" data-level="88"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/docker.svg" alt="Docker" loading="lazy">
+                <span>Docker</span>
+                <div class="skill-level" data-level="70"></div>
+              </div>
+              <div class="skill-item">
+                <img src="images/vs.svg" alt="Visual Studio" loading="lazy">
+                <span>Visual Studio</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">04</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of the projects I've worked on</p>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- FIFA World Cup Project -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/fifa.png" alt="FIFA World Cup Qatar 2022" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://karimhelal.github.io/Fifa-World-Cup-Qatar-2022/" class="project-link" target="_blank" rel="noopener" aria-label="Live Demo">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">FIFA World Cup Qatar 2022</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                A responsive web application that provides comprehensive coverage of the 2022 FIFA World Cup tournament in Qatar. The project features an elegant, sports-themed interface showcasing tournament data through multiple interactive sections.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="fifa-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="fifa-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Candle Project -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/candle.png" alt="Candle store" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://karimhelal.github.io/Candle-store" class="project-link" target="_blank" rel="noopener" aria-label="View FIFA project on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Candle Store</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                A premium e-commerce website for handcrafted organic soaps and candles featuring a clean, minimalist design that emphasizes natural beauty and sustainability.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="fifa-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="fifa-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+                    <!-- leather -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/leather.png" alt="Candle store" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://karimhelal.github.io/Leather-Goods-ecommerce" class="project-link" target="_blank" rel="noopener" aria-label="View FIFA project on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Leather Goods Store</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                A luxury fashion e-commerce website featuring elegant design and modern functionality for a high-end accessories brand. The platform showcases minimalist aesthetics with a focus on product presentation and user experience.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="fifa-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="fifa-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Adidas Landing Page -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/adidas.png" alt="Adidas Landing Page" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/karimhelal/Adidas" class="project-link" target="_blank" rel="noopener" aria-label="View Adidas project on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Adidas Landing page</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                A modern, responsive landing page inspired by the iconic Adidas brand, showcasing contemporary web design principles and athletic aesthetics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="adidas-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="adidas-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          
+          <!-- ecommerce api -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/eco.png" alt="Candle store" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">E‑commerce Web API</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                RESTful API with product, cart, and order endpoints; JWT authentication and Swagger docs. Dockerized for development.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">.NET API</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">.NET MVC</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="fifa-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="fifa-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+                    <!-- Student Services Portal (.NET MVC) -->
+          <article class="project-card" data-category="data">
+            <div class="project-image">
+              <img src="images/std.png" alt="Candle store" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Student Services Portal (.NET MVC)</h3>
+                <div class="project-status">
+                  <span class="status-badge status--completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                A full‑stack ASP.NET Core MVC app for student enrollment, grades, and announcements with role‑based access.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">.NET MVC</span>
+                <span class="tech-tag">Entity Framework</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+              <div class="project-stats">
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                  </svg>
+                  <span id="fifa-stars">-</span>
+                </div>
+                <div class="stat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20l6-3 6 3V2z"/>
+                  </svg>
+                  <span id="fifa-forks">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        <!-- View all projects link -->
+        <div class="projects-cta">
+          <a href="https://github.com/karimhelal" class="btn btn--outline" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span>View All Projects on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">05</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">Ready to bring your ideas to life</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="contact-intro">
+              <h3>Ready to start your next project?</h3>
+              <p>
+                I'm always interested in new opportunities and collaborations. 
+                Whether you have a project in mind or just want to chat about technology, 
+                feel free to reach out!
+              </p>
+            </div>
+
+            <div class="contact-methods">
+              <a href="mailto:karimhelalkh110@gmail.com" class="contact-method">
+                <div class="contact-method__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div class="contact-method__content">
+                  <span class="contact-method__label">Email</span>
+                  <span class="contact-method__value">karimhelalkh110@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+201100548535" class="contact-method">
+                <div class="contact-method__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div class="contact-method__content">
+                  <span class="contact-method__label">Phone</span>
+                  <span class="contact-method__value">+20 110 054 8535</span>
+                </div>
+              </a>
+
+              <div class="contact-method">
+                <div class="contact-method__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div class="contact-method__content">
+                  <span class="contact-method__label">Location</span>
+                  <span class="contact-method__value">New Damietta, Egypt</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+              <a href="https://github.com/karimhelal" class="social-link" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/karimhelalkh" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="mailto:karimhelalkh110@gmail.com" class="social-link" aria-label="Send Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Availability status -->
+            <div class="availability">
+              <div class="availability__indicator"></div>
+              <span class="availability__text">Available for freelance projects</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-header">
+              <h3>Send me a message</h3>
+              <p>Let's discuss your project and how we can work together</p>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="Your full name"
+                  required 
+                  autocomplete="name"
+                >
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="your.email@example.com"
+                  required 
+                  autocomplete="email"
+                >
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-group form-group--full">
+                <label for="subject" class="form-label">Subject</label>
+                <select id="subject" name="subject" class="form-select" required>
+                  <option value="">Select a subject</option>
+                  <option value="web-development">Web Development Project</option>
+                  <option value="data-analysis">Data Analysis Project</option>
+                  <option value="api-development">API Development</option>
+                  <option value="consultation">Technical Consultation</option>
+                  <option value="collaboration">Collaboration Opportunity</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-group form-group--full">
+                <label for="message" class="form-label">Message</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-textarea" 
+                  placeholder="Tell me about your project, goals, timeline, and any specific requirements..."
+                  rows="6"
+                  required
+                  minlength="20"
+                ></textarea>
+                <span class="form-error" role="alert"></span>
+                <div class="form-hint">
+                  <span class="char-count">0</span> / 500 characters
+                </div>
+              </div>
+
+              <div class="form-group form-group--full">
+                <label class="form-checkbox">
+                  <input type="checkbox" name="newsletter" value="yes">
+                  <span class="checkmark"></span>
+                  <span class="checkbox-text">I'd like to receive updates about your projects and blog posts</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary btn--full">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loading" aria-hidden="true">
+                  <svg class="spinner" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="4" opacity="0.25"/>
+                    <path fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
+                  </svg>
+                </span>
+              </button>
+              <p class="form-note">
+                I'll get back to you within 24 hours. You can also reach me directly at 
+                <a href="mailto:karimhelalkh110@gmail.com">karimhelalkh110@gmail.com</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-number">06</span>
+          <h2 class="section-title">What People Say</h2>
+          <p class="section-subtitle">Feedback from colleagues and mentors</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Karim demonstrates exceptional problem-solving skills and attention to detail. His code is clean, well-documented, and follows best practices. A pleasure to work with."
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/user1.jpg" alt="Ahmed Mohamed" class="testimonial-avatar" loading="lazy">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Ahmed Mohamed</h4>
+                <p class="testimonial-role">Senior Developer at Tech Solutions</p>
+                <div class="testimonial-rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Outstanding performance in our .NET development program. Karim consistently delivered high-quality assignments and helped fellow students. Highly recommended."
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/user3.jpg" alt="Dr. Sarah Hassan" class="testimonial-avatar" loading="lazy">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Dr. Sarah Hassan</h4>
+                <p class="testimonial-role">DEPI Program Instructor</p>
+                <div class="testimonial-rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Karim's data analysis projects show deep understanding of statistical concepts and excellent visualization skills. His FIFA World Cup analysis was particularly impressive."
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/user2.jpg" alt="Prof. Mohamed Ali" class="testimonial-avatar" loading="lazy">
+              <div class="testimonial-info">
+                <h4 class="testimonial-name">Prof. Mohamed Ali</h4>
+                <p class="testimonial-role">Computer Science Department</p>
+                <div class="testimonial-rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo__text">KH</span>
+              <div class="logo__glow"></div>
+            </div>
+            <h3>Karim Helal</h3>
+            <p>Full-Stack .NET Developer & Data Scientist</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Projects</h4>
+              <ul>
+                <li><a href="https://github.com/karimhelal/E-learning-platform" target="_blank" rel="noopener">E-learning Platform</a></li>
+                <li><a href="https://github.com/karimhelal/Fifa-World-Cup-Qatar-2022" target="_blank" rel="noopener">FIFA Analysis</a></li>
+                <li><a href="https://github.com/karimhelal/Adidas" target="_blank" rel="noopener">Adidas Analysis</a></li>
+                <li><a href="https://github.com/karimhelal/datasets" target="_blank" rel="noopener">Datasets Collection</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Connect</h4>
+              <ul>
+                <li><a href="https://github.com/karimhelal" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/karimhelalkh" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="mailto:karimhelalkh110@gmail.com">Email</a></li>
+                <li><a href="tel:+201100548535">Phone</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <p>&copy; <span id="current-year">2025</span> Karim Helal. All rights reserved.</p>
+            <p>Built with passion using modern web technologies.</p>
+          </div>
+          
+          <div class="footer-actions">
+            <a href="#hero" class="back-to-top" aria-label="Back to top">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 15l-6-6-6 6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile menu backdrop -->
+  <div class="menu-backdrop" id="menu-backdrop"></div>
+
+  <!-- Cursor follower for desktop -->
+  <div class="cursor-follower" aria-hidden="true">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script defer src="script.js"></script>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => console.log('SW registered'))
+          .catch(error => console.log('SW registration failed'));
+      });
+    }
+  </script>
+
+  <!-- Analytics (Google Analytics 4) - Replace with your measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</body>
+</html>
